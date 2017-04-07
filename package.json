@@ -2,7 +2,7 @@
   "name": "blurup",
   "version": "0.0.1",
   "description": "convert image into blurred background-image prop",
-  "main": "index.js",
+  "bin": "index.js",
   "author": "Alexander Gudulin <alexandr.gudulin@gmail.com>",
   "license": "MIT",
   "repository": {
