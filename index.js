@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const exec = require('child_process').exec
 const execute = (script, params) => new Promise((resolve, reject) => {
   exec(`${script} ${params}`, (error, stdout, stderr) => {
